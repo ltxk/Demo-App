@@ -1,0 +1,51 @@
+.Main{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(18, 18, 18);
+      /*sua lai sau*/
+    color: seashell;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.MainNav li{
+    list-style-type: none;
+}
+.MainNav ul{
+    display: flex;
+    gap: 10px;
+}
+
+.MainNav{
+    display: flex;
+    width: 75%;
+    margin: auto;
+    align-items: center;
+    height: 100px;
+
+}
+#SearchBar{
+    height: 34px;
+    border-radius: 24px;
+    border: none;
+    background-color: #202020;
+
+}
+#SearchBar:focus{
+    background-color: #333333;
+    outline: none;
+
+}
+.navLink:hover a{
+    color: #ffffff ;
+}
+
+.Box {
+   min-height:200vh ;
+
+}
+.nav{
+    position: -webkit-sticky;
+    z-index: 2000;
+}

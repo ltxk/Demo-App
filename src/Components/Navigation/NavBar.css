@@ -1,0 +1,58 @@
+* {    font-family: 'Open Sans', sans-serif;}
+a:visited{
+  color: #ccc;
+}
+.navBar{
+    background-color: #202020;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #ccc;
+    min-height: 50px;
+
+    font-size: 12px;
+    letter-spacing: .075em;
+    font-weight: 700;
+    }
+  
+  
+  .leftNav{
+    display: flex;
+    gap: 0;
+    list-style: none;
+    margin: 0 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+
+  }
+  a {
+    text-decoration: none;
+  }
+  .leftNav .hoverBottomGlow{
+      text-decoration: none;
+      padding: 10px 15px;
+      border-bottom: solid #202020 5px;
+      border-top: solid #202020 5px;
+
+  }
+  .leftNav .hoverBottomGlow:hover{
+
+    border-bottom: solid rgba(30, 120, 172, 0.877) 5px;
+    
+  }
+  .leftNav .hoverBottomGlow:hover a{
+    color: #ffffff ;
+  }
+
+  #eglogo{
+      background-image: url("./eglogo.png");
+      background-size: 30px;
+      height: 40px;
+      width: 40px;
+      color: #ccc;
+      background-repeat: no-repeat;
+      padding: 0 10px;
+      margin:  0;
+      background-position: center center;
+  }
